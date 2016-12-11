@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+    <string name="showBill">Show Bill</string>
+    <string name="addDish">Add Dish</string>
+    <string name="ok">Ok</string>
+    <string name="download_error_title">Download Error</string>
+    <string name="download_accept">Accept</string>
+</resources>

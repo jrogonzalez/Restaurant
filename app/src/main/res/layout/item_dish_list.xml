@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:weightSum="1">
+
+    <ImageView
+            android:id="@+id/dishListImage"
+            android:layout_width="80dp"
+            android:layout_height="67dp"
+            android:src="@drawable/no_download"/>
+
+    <!--
+    <LinearLayout
+            android:id="@+id/linearLayout"
+            android:minHeight="67dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+-->
+        <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@android:color/black"
+                android:id="@+id/dishListName"
+                android:text="Nombre del plato"
+                android:paddingLeft="15dp"
+                android:layout_weight="0.90"/>
+
+        <TextView
+                android:id="@+id/dishListPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="200€"
+                android:layout_gravity="right|center_vertical"/>
+
+<!--
+    </LinearLayout>
+-->
+</LinearLayout>
